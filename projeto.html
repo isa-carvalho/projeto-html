@@ -7,66 +7,86 @@
     
     <title>Projeto HTML</title>
 </head>
-<body> 
+<body style="background-color: beige;"  >
+  
     <hr  style="color: olivedrab;"  >       
-    <h1   id="inicio" style="text-align: center; "> Sobre HTML </h1>
-    <hr style="color: olivedrab;">
-    <h2  > <strong>Índice</strong> </h2>
+    <h1   id="inicio" style="text-align: center; font-size: 300%; font-family: Georgia; ">  HTML </h1>
+    <hr style="color: olivedrab; font-family:impact ; ">
+    <h2 style="font-family:tahoma ;" > <strong>Índice</strong> </h2>
     <ol>
-    <li><a style="color: olivedrab;" href= "O que é o HTML " > O que é o HTML </a> </li>
-    <li  ><a style="color: olivedrab;"href=" surgimento"> Como surgiu ? </a> </li>
-    <li> <a style="color: olivedrab;"  href="Principais elementos  ">Principais elementos mais utilizados </a></li>
-    
+      <li><a style="color: olivedrab;" href= "#O que é o HTML " > O que é o HTML </a> </li>
+      <li  ><a style="color: olivedrab;"href="#surgimento"> Como surgiu ? </a> </li>
+      <li> <a style="color: olivedrab;"  href="#mosaic"> O primeiro navegador gráfico - Mosaic   </a></li>
+      <li> <a style="color: olivedrab;"  href="#uso-navegadores">HTMl e seu uso em navegadores web  </a></li>
+      <li> <a style="color: olivedrab;"  href="#Principais-elementos">Principais elementos mais utilizados </a></li>
+      <img style="float: right;" width=400px heidth="500" src="https://blog.xpeducacao.com.br/wp-content/uploads/2022/08/o-que-e-html.png" >
+    </ol>
 
-    <img style="float: right;" width=200px heidth="200" src="https://img.freepik.com/vetores-gratis/ilustracao-de-conceito-de-computador-desktop_114360-12153.jpg" >
 
-</ol>
-
-
-    <h1 id="O que é o HTML"  font-family:Verdana"> 1- O que é o HTML  </h1>
-    <smal><a  style="color: olivedrab;"   href="inicio" >(voltar)</a></smal> 
+    <h1  style="font-family:Tahoma" id="O que é o HTML"  font-family:Verdana > 1- O que é o HTML  </h1>
+    <smal><a  style="color: olivedrab;"   href="#inicio" >(voltar)</a></smal> 
     <p> <mark>O<i> HTML (Hypertext Markup Language)</i> é a linguagem de marcação </mark>fundamental usada para criar páginas web na internet. Ele fornece a estrutura básica de qualquer página, definindo os elementos como texto, imagens, links, tabelas e outros conteúdos. </p>
 
-    <h1  id="surgimento"  font-family:Verdana "> 2- Como surgiu ? </h1>
-    <smal><a  style="color: olivedrab;"   href="inicio" >(voltar)</a></smal> 
+    <h1  style="font-family:Tahoma"  id="surgimento"  > 2- Como surgiu ? </h1>
+    <smal><a  style="color: olivedrab;"   href="#inicio" >(voltar)</a></smal> 
     <p><mark>Foi inventado por <strong>Tim Bernes Lee em 1991,</strong> junto com a criação do <i><strong>www (word wide web)</strong></i> </mark>, com a ideia principal de <mark>criar uma maneira de simples de estruturar documentos e compartilha-los por meio da rede.</mark>
     Berners-Lee propôs usar hiperlinks para conectar diferentes documentos de texto. Isso levou à criação de uma linguagem de marcação (markup language) que permitia o uso de links entre diferentes páginas na web o HTML.</p>
+    <p>Desde então, o HTML evoluiu bastante, passando por várias versões até chegar ao HTML5, que suporta vídeos, animações e muito mais. Mas a base da internet ainda é a mesma: páginas escritas em HTML!</p>
 
-    <h1 id="Principais elementos" style="font-family: verdana;" >3- Principais elementos mais utilizados </h1>
-    <smal><a  style="color: olivedrab;"   href="inicio" >(voltar)</a></smal> 
+    <h1  style="font-family:Tahoma"  id="mosaic" > 3- O primeiro navegador gráfico - Mosaic </h1>
+    <smal><a  style="color: olivedrab;"   href="#inicio" >(voltar)</a></smal> 
+    <p>Mosaic, lançado em 1993 por uma equipe da Universidade de Illinois, antes dele a maioria dos navegadores eram baseados em texto, como o Lynx. O Mosaic foi o primeiro navegador a:
     <ul>
-      <li> HTML – Elemento raiz
+       <li> Exibir imagens e textos juntos na mesma página.</li>
+       <li>Ter uma interface gráfica amigável, facilitando o uso. </li>
+       <li>Introduzir botões de navegação (Voltar, Avançar, Atualizar).</li>
+    </ul>
+    <p>Isso popularizou a World Wide Web (WWW), tornando a navegação acessível ao público e inspirou a criação do Netscape Navigator (1994), que dominou o mercado antes da chegada do Internet Explorer, sem o Mosaic, a web poderia ter demorado muito mais para se tornar visual e interativa como conhecemos hoje. </p>
+    </p>
+    <h1 style="font-family:Tahoma" id="uso-navegadores" >4- HTMl e seu uso em navegadores web</h1>
+    <smal><a  style="color: olivedrab;"   href="inicio" >(voltar)</a></smal> 
+    <p>O HTML é a linguagem padrão usada para estruturar o conteúdo de páginas web, que por sua vez, tem a função de ajudar os navegadores,(Chrome, Firefox, Edge, Safari, etc.) que são os programas responsáveis por interpretar e exibir esse código para o usuário de forma visual.
+    <h2> Como os navegadores processam o HTML?</h2> 
+    <ol>
+       <li>O navegador recebe o código HTML de um servidor web.</li>
+       <li>Ele analisa (parseia) o HTML e constrói a estrutura da página.</li>
+       <li>Baixa e aplica arquivos CSS para estilizar o conteúdo. </li>
+       <li>Executa scripts JavaScript para tornar a página interativa. </li>
+       <li> Renderiza a página na tela do usuário.</li>
+    </ol>
+    <h2> Padrões Web e Compatibilidade</h2>
+       Os navegadores seguem padrões definidos pelo W3C (World Wide Web Consortium) e pelo WHATWG.
+      Cada navegador pode interpretar certos recursos de maneira ligeiramente diferente, por isso testar compatibilidade é essencial para o  código de sites bonitos e funcionais!.
+    </p>
+    <h1 style="font-family:Tahoma" id="Principais-elementos" style="font-family: verdana;" >5-  Principais elementos mais utilizados </h1>
+    <smal><a  style="color: olivedrab;"   href="#inicio" >(voltar)</a></smal> 
+    <ul>
+       <li> HTML – Elemento raiz
         Define o início e o fim de um documento HTML.</li>
-      <li>HEAD – Cabeçalho da página
+       <li>HEAD – Cabeçalho da página
         Contém metadados sobre o documento, como título, links para arquivos CSS e scripts.</li>
-      <li>TITLE – Título da página
+       <li>TITLE – Título da página
         Define o título exibido na aba do navegador.</li>
-      <li>
+       <li>
         BODY - Corpo da página
-
         Contém o conteúdo visível da página, como textos, imagens, links e outros elementos.
-      </li>
-      <li>
-     H1,H2,H3...H6– Cabeçalhos
-
-            Usados para títulos e subtítulos, de H1 (mais importante) até H6 (menos importante).
-     </li>
-     <li>
+       </li>
+       <li>
+       H1,H2,H3...H6– Cabeçalhos
+       Usados para títulos e subtítulos, de H1 (mais importante) até H6 (menos importante).
+       </li>
+       <li>
         P -Paragrafo 
         Usado para definir blocos de texto
-
-     </li>
-     <li>
-         a – Link (âncora)
-
-            Usado para criar hyperlinks que levam a outras páginas ou recursos.
-    </li>
-    <li>Ul-lista ordenada(bullets)</li>
-    <li>Ol-lista não ordenada (numerada)</li>
-    <li>li- item de lista</li> 
-     
-
-      <p>Eses são só alguns elementos usados no HTML que possibilitam criar páginas web, juntos eles compoẽm a estrutura básica que permite a criação de um conteudo interativo e visualmente estruturado.</p>
+       </li>
+       <li>
+      a – Link (âncora)
+       Usado para criar hyperlinks que levam a outras páginas ou recursos.
+       </li>
+       <li>Ul-lista ordenada(bullets)</li>
+       <li>Ol-lista não ordenada (numerada)</li>
+       <li>li- item de lista</li> 
+     <p>Eses são só alguns elementos usados no HTML que possibilitam criar páginas web, juntos eles compoẽm a estrutura básica que permite a criação de um conteudo interativo e visualmente estruturado.</p>
     </ul>
 
 </body>
